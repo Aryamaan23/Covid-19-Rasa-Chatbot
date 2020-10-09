@@ -43,6 +43,7 @@ Follow your doctor’s advice and keep up with the news on COVID-19. Between you
 
 ## About Rasa
 ![rasa](https://user-images.githubusercontent.com/60667917/95549588-2f62bd80-0a25-11eb-8fae-22abbb2307d2.jpg)
+
 Rasa is an open source machine learning framework for automated text and voice-based conversations. Understand messages, hold conversations, and connect to messaging channels and APIs.
 
 ## Build your assistant
