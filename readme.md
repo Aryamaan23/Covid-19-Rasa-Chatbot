@@ -50,6 +50,7 @@ Rasa is an open source machine learning framework for automated text and voice-b
 In this guide, we are creating an assistant that helps users subscribe to a newsletter. Go through each of the steps below to see how a simple assistant is created:
 
 1. NLU data
+
 What are the various things people might say to an assistant that can help them subscribe to a newsletter?
 
 For an assistant to recognize what a user is saying no matter how the user phrases their message, we need to provide example messages the assistant can learn from. We group these examples according to the idea or the goal the message is expressing, which is also called the intent. In the code block on the right, we have added an intent called greet, which contains example messages like “Hi”, “Hey”, and “good morning”.
@@ -57,6 +58,7 @@ For an assistant to recognize what a user is saying no matter how the user phras
 Intents and their examples are used as training data for the assistant's Natural Language Understanding (NLU) model.
 
 2. Responses
+
 Now that the assistant understands a few messages users might say, it needs responses it can send back to the user.
 
 “Hello, how can I help you?” and “what’s your email address?” are some of the responses our assistant will use. You’ll see how to connect user messages and responses in the next steps.
@@ -64,6 +66,7 @@ Now that the assistant understands a few messages users might say, it needs resp
 In the code block below, we have listed some responses and added one or more text options for each of them. If a response has multiple text options, one of these options will be chosen at random whenever that response is predicted.
 
 3. Stories
+
 Stories are example conversations that train an assistant to respond correctly depending on what the user has said previously in the conversation. The story format shows the intent of the user message followed by the assistant’s action or response.
 
 Your first story should show a conversation flow where the assistant helps the user accomplish their goal in a straightforward way. Later, you can add stories for situations where the user doesn't want to provide their information or switches to another topic.
@@ -71,11 +74,13 @@ Your first story should show a conversation flow where the assistant helps the u
 In the code block below, we have added a story where the user and assistant exchange greetings, the user asks to subscribe to the newsletter, and the assistant starts collecting the information it needs through the newsletter_form. You will learn about forms in the next step.
 
 4. Forms
+
 There are many situations where an assistant needs to collect information from the user. For example, when a user wants to subscribe to a newsletter, the assistant must ask for their email address.
 
 You can do this in Rasa using a form. In the code block below, we added the newsletter_form and used it to collect an email address from the user.
 
 5. Rules
+
 Rules describe parts of conversations that should always follow the same path no matter what has been said previously in the conversation.
 
 We want our assistant to always respond to a certain intent with a specific action, so we use a rule to map that action to the intent.
