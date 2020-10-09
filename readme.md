@@ -34,3 +34,9 @@ The main symptoms include:
 12.Nausea
 13.Diarrhea
 
+## What to do if you think you have it
+If you live in or have traveled to an area where COVID-19 is spreading:
+
+If you don’t feel well, stay home. Even if you have mild symptoms like a headache and runny nose, stay in until you’re better. This lets doctors focus on people who are more seriously ill and protects health care workers and people you might meet along the way. You might hear this called self-quarantine. Try to stay in a separate room away from other people in your home. Use a separate bathroom if you can.
+Call the doctor if you have trouble breathing. You need to get medical help as soon as possible. Calling ahead (rather than showing up) will let the doctor direct you to the proper place, which may not be your doctor’s office. If you don’t have a regular doctor, call your local board of health. They can tell you where to go for testing and treatment.
+Follow your doctor’s advice and keep up with the news on COVID-19. Between your doctor and health care authorities, you’ll get the care you need and information on how to prevent the virus from spreading.
